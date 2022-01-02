@@ -15,17 +15,32 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <button class="btn btn--primary">Buy Now</button>
-    <button class="btn btn--secondary">Buy Now</button>
-    <button class="btn btn--accent">Buy Now</button>
-    <a href="#" class="btn btn--accent">Again</a>
-    <button class="btn btn--outline">Buy Now</button>
+    <div class="input-group">
+      <input type="text" class="input" placeholder="Enter here" />
+    </div>
     <br />
-    <button class="btn btn--primary btn--block">Buy Now</button>
-    <button class="btn btn--secondary btn--block">Buy Now</button>
-    <button class="btn btn--accent btn--block">Buy Now</button>
-    <a href="#" class="btn btn--accent btn--block">Again</a>
-    <button class="btn btn--block btn--outline">Buy Now</button>
+    <div class="input-group">
+      <input type="text" class="input" placeholder="Enter here" />
+      <button class="btn btn--accent">Search</button>
+    </div>
     <br />
+    <div class="input-group">
+      <span class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#wordpress"></use>
+        </svg>
+      </span>
+      <input type="text" class="input" placeholder="Enter here" />
+      <button class="btn btn--accent">Search</button>
+    </div>
+    <div class="input-group">
+      <button class="btn btn--accent">Search</button>
+      <input type="text" class="input" placeholder="Enter here" />
+      <span class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#wordpress"></use>
+        </svg>
+      </span>
+    </div>
   </body>
 </html>
